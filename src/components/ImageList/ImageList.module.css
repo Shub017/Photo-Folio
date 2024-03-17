@@ -1,0 +1,56 @@
+
+/* button contaienr */
+.btnContainer{
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* serach bar withing button container */
+.btnContainer input{
+    width: 50%;
+}
+
+/* buttons */
+.btn{
+    width: 90px;
+    height: 31px;
+    color: white;
+}
+
+/* back button */
+.backBtn{
+    float: left;
+    background-color: #51d0de;
+}
+
+/* add image button */
+.addBtn{
+    float: right;
+    background-color: #f44336;
+}
+
+
+/* imagelist containing all the image cards */
+.imageList{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.backContainerSpan{
+    align-items: center;
+    aspect-ratio: 1;
+    background-color: #fcfcfc;
+    border-radius: 50%;
+    box-shadow: 0 3px 8px rgba(0,0,0,.24);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    width: 50px;
+}
+
+.backContainerSpan img{
+    width: 30px;
+}
