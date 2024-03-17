@@ -6,7 +6,7 @@ import classNames from 'classnames';
 // Album function to show album icon in AlbumList
 export default function Album(props){
 
-    let AlbumAnimation = classNames('animate__animated', 'animate__fadeInDown');
+    const AlbumAnimation = classNames('animate__animated', 'animate__fadeInDown');
 
     // info about the album and to open an album
     var {info, setOpenAlbum}=props;
