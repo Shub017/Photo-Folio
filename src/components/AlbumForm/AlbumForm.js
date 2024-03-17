@@ -19,7 +19,7 @@ import 'react-toastify/dist/ReactToastify.css';
 // form to add a new album in Albumlist
 export default function AlbumForm(){
     
-    let pStyling = classNames('animate__animated', 'animate__zoomInDown');
+    const pStyling = classNames('animate__animated', 'animate__zoomInDown');
 
     // for Album name
     const nameRef=useRef();
