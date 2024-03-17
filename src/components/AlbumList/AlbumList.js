@@ -39,7 +39,7 @@ export default function AlbumList(){
                     ...doc.data()
                 }
             });
-            console.log(card);
+            
             // storing all the albums within local state variable
             setAlbumList(card);
         });
