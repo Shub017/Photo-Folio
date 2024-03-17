@@ -32,7 +32,7 @@ export default function AlbumList(){
     useEffect(()=>{
 
         // getting realtime updates from database
-        const unsub = onSnapshot(collection(db, "album"), (snapShot) => {
+        onSnapshot(collection(db, "album"), (snapShot) => {
             const card = snapShot.docs.map((doc) => {
                 return{
                     id:doc.id,
