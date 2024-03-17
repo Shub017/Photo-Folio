@@ -48,7 +48,7 @@ export default function ImageList(props){
 
     // get all the images from database 
     useEffect(()=>{
-        const unsub = onSnapshot(doc(db, "album",openAlbum.albumId), (doc) => {
+        onSnapshot(doc(db, "album",openAlbum.albumId), (doc) => {
             const data=doc.data().imageList;      
             setImageList(data);
         });
