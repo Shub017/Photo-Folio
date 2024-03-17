@@ -36,7 +36,7 @@ export default function AlbumForm(){
         e.preventDefault();
 
         // Add a new document with a generated id.
-        const docRef = await addDoc(collection(db, "album"),{
+        await addDoc(collection(db, "album"),{
             Albumname:nameRef.current.value,
             imageList:[],
             }
