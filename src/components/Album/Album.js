@@ -9,7 +9,7 @@ export default function Album(props){
     const AlbumAnimation = classNames('animate__animated', 'animate__fadeInDown');
 
     // info about the album and to open an album
-    var {info, setOpenAlbum}=props;
+    const {info, setOpenAlbum}=props;
 
     // onClick over Album open the Album's content
     function handleClick(){
