@@ -17,12 +17,12 @@ Deployed using netlify -: https://main--deluxe-sunshine-4abe19.netlify.app/
 
 ## Features
 
--Album Management: Users can add new albums to organize their photo collections efficiently.
--Image Saving: Integration of functionality to save images in albums using URLs, allowing users to easily add images from online sources.
--Image Deletion: Implemented a delete feature, enabling users to remove unwanted images from their albums seamlessly.
--Search Functionality: Incorporation of a search bar feature, allowing users to quickly locate specific images within their albums.
--Modern UI Design: Utilized modern UI design principles to ensure a visually appealing and intuitive user interface.
--Responsive Design: Ensured responsiveness and cross-browser compatibility for a seamless experience across different devices and platforms.
+- Album Management: Users can add new albums to organize their photo collections efficiently.
+- Image Saving: Integration of functionality to save images in albums using URLs, allowing users to easily add images from online sources.
+- Image Deletion: Implemented a delete feature, enabling users to remove unwanted images from their albums seamlessly.
+- Search Functionality: Incorporation of a search bar feature, allowing users to quickly locate specific images within their albums.
+- Modern UI Design: Utilized modern UI design principles to ensure a visually appealing and intuitive user interface.
+- Responsive Design: Ensured responsiveness and cross-browser compatibility for a seamless experience across different devices and platforms.
 
 
 
